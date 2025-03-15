@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Lamennais Ltd</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Include Header -->
+  <div id="header"></div>
+  <script>
+    fetch('header.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      });
+  </script>
+
+  <!-- Hero Section -->
+  <section id="about-hero" data-aos="fade-up">
+    <div class="container">
+      <h1 data-aos="fade-right">Crafting Unforgettable Experiences, Elevating Every Event.</h1>
+      <p data-aos="fade-left">At Lamennais Ltd, we specialize in top-tier event management and consulting, ensuring your vision comes to life seamlessly.</p>
+    </div>
+  </section>
+
+  <!-- Our Story -->
+  <section id="our-story" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">Our Story</h2>
+      <div class="story-content">
+        <div class="story-image" data-aos="fade-right">
+          <img src="images/about-story.jpg" alt="Our Story">
+        </div>
+        <div class="story-text" data-aos="fade-left">
+          <p>Lamennais Ltd was founded with a passion for creating unforgettable experiences. Our journey began with a simple mission: to transform ordinary events into extraordinary memories.</p>
+          <p>Over the years, we’ve grown into a trusted name in event management and consulting, driven by our commitment to excellence and innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Mission & Vision -->
+  <section id="mission-vision" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">Our Mission & Vision</h2>
+      <div class="mission-vision-grid">
+        <div class="mission" data-aos="fade-right">
+          <h3>Mission</h3>
+          <p>To deliver outstanding event experiences and consulting services that leave a lasting impact.</p>
+        </div>
+        <div class="vision" data-aos="fade-left">
+          <h3>Vision</h3>
+          <p>To be the leading event management and consulting firm, setting the standard for excellence and innovation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Do -->
+  <section id="what-we-do" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">What We Do</h2>
+      <div class="services-grid">
+        <div class="service" data-aos="flip-left">
+          <i class="fas fa-calendar-alt"></i>
+          <h3>Event Planning & Management</h3>
+          <p>Corporate events, weddings, conferences, and more.</p>
+        </div>
+        <div class="service" data-aos="flip-left" data-aos-delay="200">
+          <i class="fas fa-chart-line"></i>
+          <h3>Consulting Services</h3>
+          <p>Strategy, logistics, and execution.</p>
+        </div>
+        <div class="service" data-aos="flip-left" data-aos-delay="400">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Creative Solutions</h3>
+          <p>Branding, design, and marketing for events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why-choose-us" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">Why Choose Us?</h2>
+      <div class="reasons-grid">
+        <div class="reason" data-aos="zoom-in">
+          <i class="fas fa-users"></i>
+          <h3>Experience & Expertise</h3>
+          <p>Years of experience in event management and consulting.</p>
+        </div>
+        <div class="reason" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-search"></i>
+          <h3>Attention to Detail</h3>
+          <p>We ensure every detail is perfect for your event.</p>
+        </div>
+        <div class="reason" data-aos="zoom-in" data-aos-delay="400">
+          <i class="fas fa-heart"></i>
+          <h3>Client-Centered Approach</h3>
+          <p>Your vision is our priority.</p>
+        </div>
+        <div class="reason" data-aos="zoom-in" data-aos-delay="600">
+          <i class="fas fa-trophy"></i>
+          <h3>Proven Track Record</h3>
+          <p>Trusted by clients for successful events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet the Team -->
+  <section id="meet-the-team" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">Meet the Team</h2>
+      <div class="team-grid">
+        <div class="team-member" data-aos="zoom-in">
+          <img src="images/team-member1.jpg" alt="Team Member 1" class="profile-pic">
+          <h3>John Doe</h3>
+          <p class="role">CEO & Founder</p>
+          <p class="description">With over 15 years of experience, John leads the team with passion and vision.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +123 456 7890</p>
+            <p><i class="fas fa-envelope"></i> john@lamennais.com</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-member" data-aos="zoom-in" data-aos-delay="200">
+          <img src="images/team-member2.jpg" alt="Team Member 2" class="profile-pic">
+          <h3>Jane Smith</h3>
+          <p class="role">Event Manager</p>
+          <p class="description">Jane ensures every event is executed flawlessly with her attention to detail.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +123 456 7891</p>
+            <p><i class="fas fa-envelope"></i> jane@lamennais.com</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-member" data-aos="zoom-in" data-aos-delay="400">
+          <img src="images/team-member3.jpg" alt="Team Member 3" class="profile-pic">
+          <h3>Mike Johnson</h3>
+          <p class="role">Creative Director</p>
+          <p class="description">Mike brings creativity and innovation to every event.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +123 456 7892</p>
+            <p><i class="fas fa-envelope"></i> mike@lamennais.com</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-member" data-aos="zoom-in" data-aos-delay="600">
+          <img src="images/team-member4.jpg" alt="Team Member 4" class="profile-pic">
+          <h3>Sarah Brown</h3>
+          <p class="role">Marketing Specialist</p>
+          <p class="description">Sarah handles branding and marketing strategies for events.</p>
+          <div class="contact-info">
+            <p><i class="fas fa-phone"></i> +123 456 7893</p>
+            <p><i class="fas fa-envelope"></i> sarah@lamennais.com</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">What Our Clients Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial" data-aos="zoom-in">
+          <p>"Lamennais Ltd made our wedding unforgettable! Their attention to detail was impeccable."</p>
+          <h3>- Sarah & James</h3>
+        </div>
+        <div class="testimonial" data-aos="zoom-in" data-aos-delay="200">
+          <p>"The best event management team we’ve ever worked with. Highly recommended!"</p>
+          <h3>- ABC Corporation</h3>
+        </div>
+        <div class="testimonial" data-aos="zoom-in" data-aos-delay="400">
+          <p>"Professional, creative, and reliable. They exceeded our expectations!"</p>
+          <h3>- XYZ Company</h3>
+        </div>
+        <div class="testimonial" data-aos="zoom-in" data-aos-delay="600">
+          <p>"From planning to execution, everything was flawless. Thank you, Lamennais Ltd!"</p>
+          <h3>- Emily Carter</h3>
+        </div>
+        <div class="testimonial" data-aos="zoom-in" data-aos-delay="800">
+          <p>"Their team is amazing! They made our corporate event a huge success."</p>
+          <h3>- John Smith</h3>
+        </div>
+        <div class="testimonial" data-aos="zoom-in" data-aos-delay="1000">
+          <p>"We couldn’t have asked for a better partner for our event. Truly outstanding!"</p>
+          <h3>- Lisa Johnson</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" data-aos="fade-up">
+    <div class="container">
+      <h2 data-aos="fade-right">Let’s Make Your Event Unforgettable</h2>
+      <p data-aos="fade-left">Contact us today to start planning your next event!</p>
+      <a href="contact.html" class="btn" data-aos="zoom-in">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Include Footer -->
+  <div id="footer"></div>
+  <script>
+    fetch('footer.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('footer').innerHTML = data;
+      });
+  </script>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    // Initialize AOS
+    AOS.init({
+      duration: 1000, // Animation duration in milliseconds
+      once: true,     // Animations happen only once
+    });
+  </script>
+</body>
+</html>
