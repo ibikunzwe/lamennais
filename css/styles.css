@@ -236,13 +236,17 @@ body {
   }
   /* Our Story Section */
   #our-story .story-content {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, auto); /* Adjust row height as needed */
+gap: 2rem;
+
   }
   
   #our-story .story-image {
-    flex: 1;
+    grid-row: 3;
+    grid-column: 2;
+    grid-auto-flow: inherit;
   }
   
   #our-story .story-image img {
@@ -271,14 +275,14 @@ body {
   /* What We Do Section */
   #what-we-do .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
   
   #what-we-do .service {
     text-align: center;
     padding: 1.5rem;
-    background-color: rgb(12, 46, 139);
+    background-color: rgb(226, 223, 223);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
